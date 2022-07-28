@@ -4,12 +4,15 @@ class Calculator {
 		this.currentOperandTextElement = currentOperandTextElement
 	}
 	clear() {
+		this.currentOperand = ''
+		this.previousOperand = ''
+		this.operation = undefined
 }
 	
 	delete() {
 }
 
-	appendNumber() {
+	appendNumber(number) {
 }
 
 	chooseOperation(operation) {
