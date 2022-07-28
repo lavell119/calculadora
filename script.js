@@ -2,7 +2,25 @@ class Calculator {
 	constructor(previousOperandElement, currentOperandElement) {
 		this.previousOperandTextElement = previousOperandTextElement
 		this.currentOperandTextElement = currentOperandTextElement
+	}
+	clear() {
 }
+	
+	delete() {
+}
+
+	appendNumber() {
+}
+
+	chooseOperation(operation) {
+}
+
+	compute() {
+}
+	
+	updateDisplay() {
+}
+
 }
 
 const numberButtons = document.querySelectorAll('[data-number]')
