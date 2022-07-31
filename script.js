@@ -1,3 +1,5 @@
+//comment
+
 class Calculator {
 	constructor(previousOperandElement, currentOperandElement) {
 		this.previousOperandTextElement = previousOperandTextElement
