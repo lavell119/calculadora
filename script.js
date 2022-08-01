@@ -1,5 +1,3 @@
-//comment
-
 class Calculator {
 	constructor(previousOperandElement, currentOperandElement) {
 		this.previousOperandTextElement = previousOperandTextElement
@@ -38,3 +36,10 @@ const previousOperandtTextElement = document.querySelector('[data-previous-opera
 const currentOperandTextElement = document.querySelector('[data-current-operand]')
 
 const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement)
+
+numberButtons.forEach(button => {
+	button.addEventListener('click', () => {
+		calculator.appendNumber(button.innerText)
+		calculator.updateDisplay()
+		})
+})
