@@ -14,7 +14,7 @@ class Calculator {
 }
 
 	appendNumber(number) {
-		this.currentOperand = this.currentOperand.toString() + number.toString()
+		this.currentOperand = this.currentOperand.toString() +  number.toString()
 }
 
 	chooseOperation(operation) {
@@ -25,6 +25,7 @@ class Calculator {
 	
 	updateDisplay() {
 		this.currentOperandTextElement.innerText = this.currentOperand
+		
 }
 
 }
