@@ -58,3 +58,7 @@ operationButtons.forEach(button => {
 		calculator.updateDisplay()
 		})
 })
+
+allClearButton.addEventListener('click', ()=>
+	console.log('lll')
+)
